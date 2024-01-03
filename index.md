@@ -5,14 +5,14 @@ My name is Andreas. I like languages and computers. This page shows what I've be
 ## Research interests
 
 - Making machines generate useful text ([text simplification](https://doi.org/10.3389/fcomm.2022.706718), question generation)
-- Evaluating NLP models
-- Measuring how well people understand texts
+- Evaluating NLP models (automatic evaluation, [human evaluation](https://doi.org/10.3389/fcomm.2023.1175625)
+- Measuring how well people and machines can understand texts ([reading comprehension](https://doi.org/10.3389/fcomm.2023.1175625))
 
 → [Publications](https://www.semanticscholar.org/author/Andreas-S%C3%A4uberli/2064302799)
 
 ## Teaching
 
-- [Programming Techniques in Computational Linguistics 2](https://studentservices.uzh.ch/uzh/anonym/vvz/?sap-language=EN&sap-ui-language=EN#/details/2022/004/SM/50941577) (University of Zurich, 2023-)
+- [Programming Techniques in Computational Linguistics 2](https://studentservices.uzh.ch/uzh/anonym/vvz/?sap-language=EN&sap-ui-language=EN#/details/2023/004/SM/50941577) (University of Zurich, 2023-)
 - [Fundamentals of Information Technology](https://www.biw.uzh.ch/de/masbiw.html) (UZH Central Library, 2021-)
 
 ## Projects
@@ -28,4 +28,4 @@ My name is Andreas. I like languages and computers. This page shows what I've be
 
 ## Contact
 
-- Take a look at my [University page](https://www.cl.uzh.ch/de/people/team/compling/asaeub.html)
+- Take a look at my [University page](https://www.cl.uzh.ch/de/about-us/people/team/compling/asaeub.html)
