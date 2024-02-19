@@ -1,12 +1,18 @@
-# Nice to meet you
+## Nice to meet you
 
-My name is Andreas. I like languages and computers. This page shows what I've been working on lately.
+I'm Andreas. I like humans, languages, and computers (in that order). This page shows what I've been working on lately.
+
+## Education
+
+- WIP: MA Computational Linguistics (minor: Neuroinformatics)
+- BA Computational Linguistics (minor: Comparative Linguistics)
 
 ## Research interests
 
-- Making machines generate useful text ([text simplification](https://doi.org/10.3389/fcomm.2022.706718), question generation)
-- Evaluating NLP models (automatic evaluation, [human evaluation](https://doi.org/10.3389/fcomm.2023.1175625)
+- Evaluation (human and automatic) of human-centered NLP
+- Making machines generate useful text ([text simplification](https://doi.org/10.3389/fcomm.2022.706718), [test item generation](https://drive.switch.ch/index.php/s/XEKJxRKHCVWMfPZ))
 - Measuring how well people and machines can understand texts ([reading comprehension](https://doi.org/10.3389/fcomm.2023.1175625))
+- Computational psycholinguistics and cognitive plausibility
 
 → [Publications](https://www.semanticscholar.org/author/Andreas-S%C3%A4uberli/2064302799)
 
