@@ -11,7 +11,7 @@ I'm Andreas. I like humans, languages, and computers (in that order). This page 
 
 - Evaluation (human and automatic) of human-centered NLP
 - Making machines generate useful text ([text simplification](https://doi.org/10.3389/fcomm.2022.706718), [test item generation](https://drive.switch.ch/index.php/s/XEKJxRKHCVWMfPZ))
-- Measuring how well people and machines can understand texts ([reading comprehension](https://doi.org/10.3389/fcomm.2023.1175625))
+- Measuring how well people and machines can understand texts ([text comprehensibility](https://arxiv.org/abs/2402.13094))
 - Computational psycholinguistics and cognitive plausibility
 
 → [Publications](https://www.semanticscholar.org/author/Andreas-S%C3%A4uberli/2064302799)
@@ -21,7 +21,7 @@ I'm Andreas. I like humans, languages, and computers (in that order). This page 
 - [Programming Techniques in Computational Linguistics 2](https://studentservices.uzh.ch/uzh/anonym/vvz/?sap-language=EN&sap-ui-language=EN#/details/2023/004/SM/50941577) (University of Zurich, 2023-)
 - [Fundamentals of Information Technology](https://www.biw.uzh.ch/de/masbiw.html) (UZH Central Library, 2021-)
 
-## Projects
+## Coding projects
 
 - [Okra](https://github.com/saeub/okra): a mobile app for conducting reading comprehension experiments
 - [pwk](https://github.com/saeub/pwk): a command-line tool for manipulating tabular data using Python expressions
