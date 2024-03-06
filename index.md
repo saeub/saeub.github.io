@@ -10,7 +10,7 @@ I'm Andreas. I like humans, languages, and computers (in that order). This page 
 ## Research interests
 
 - Evaluation (human and automatic) of human-centered NLP
-- Making machines generate useful text ([text simplification](https://doi.org/10.3389/fcomm.2022.706718), [test item generation](https://drive.switch.ch/index.php/s/XEKJxRKHCVWMfPZ))
+- Making machines generate useful text ([text simplification](https://doi.org/10.3389/fcomm.2022.706718), [test item generation](https://www.cl.uzh.ch/dam/jcr:9f8249af-9717-4c3e-9a14-b7e08e5ceab7/MA_AndreasS%C3%84UBERLI_HS23.pdf))
 - Measuring how well people and machines can understand texts ([text comprehensibility](https://arxiv.org/abs/2402.13094))
 - Computational psycholinguistics and cognitive plausibility
 
