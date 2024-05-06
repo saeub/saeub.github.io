@@ -10,5 +10,3 @@ related_posts: false
 - The results often differ between the different stakeholders and give us a more complete picture of the quality of ATS output.
 
 The paper was accepted for an oral presentation at the [The 4th Workshop on Human Evaluation of NLP Systems (HumEval)](https://humeval.github.io/) at LREC-COLING in Turin (Italy) on May 21, 2024.
-
-Preprint coming soon.
