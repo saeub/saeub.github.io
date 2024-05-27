@@ -6,7 +6,7 @@ date: 2024-05-25
 tags: nlp text-simplification readability accessibility
 ---
 
-The community of researchers working on **text simplification and readability** is rapidly growing and the research in these areas is becoming increasingly multilingual. I identified **45 papers** published at LREC-COLING 2024 on these topics (including workshop papers) and ordered them by language.
+The community of researchers working on **text simplification and readability** is rapidly growing and the research in these areas is becoming increasingly multilingual. I identified **47 papers** on these topics published at LREC-COLING 2024 (including workshop papers) and ordered them by language.
 
 {% include figure.liquid path="assets/img/ts-lrec2024-languages.png" caption="Language distribution among text simplification papers at LREC-COLING 2024" %}
 
@@ -32,6 +32,7 @@ The community of researchers working on **text simplification and readability** 
 - Gabriel Gonzalez-Delgado and Borja Navarro-Colorado: [The Simplification of the Language of Public Administration: The Case of Ombudsman Institutions](https://aclanthology.org/2024.determit-1.12)
 - Liam Cripwell, Joël Legrand, and Claire Gardent: [Evaluating Document Simplification: On the Importance of Separately Assessing Simplicity and Meaning Preservation](https://aclanthology.org/2024.readi-1.1)
 - Hikaru Yamanaka and Takenobu Tokunaga: [SIERA: An Evaluation Metric for Text Simplification using the Ranking Model and Data Augmentation by Edit Operations](https://aclanthology.org/2024.readi-1.5)
+- Andreea Maria Deleanu, Constantin Orasan, Sabine Braun: [Accessible Communication: a systematic review and comparative analysis of official English Easy-to-Understand (E2U) language guidelines](https://aclanthology.org/2024.readi-1.7/)
 - Keren Tan, Kangyang Luo, Yunshi Lan, Zheng Yuan, and Jinlong Shu: [An LLM-Enhanced Adversarial Editing System for Lexical Simplification](https://aclanthology.org/2024.lrec-main.102)
 - Christine Pinney, Casey Kennington, Maria Soledad Pera, Katherine Landau Wright, and Jerry Alan Fails: [Incorporating Word-level Phonemic Decoding into Readability Assessment](https://aclanthology.org/2024.lrec-main.788)
 - Asma Farajidizaji, Vatsal Raina, and Mark Gales: [Is It Possible to Modify Text to a Target Readability Level? An Initial Investigation Using Zero-Shot Large Language Models](https://aclanthology.org/2024.lrec-main.815)
@@ -85,6 +86,7 @@ The community of researchers working on **text simplification and readability** 
 - Margot Madina, Itziar Gonzalez-Dios, and Melanie Siegel: [A Preliminary Study of ChatGPT for Spanish E2R Text Adaptation](https://aclanthology.org/2024.lrec-main.126)
 - Jasper Degraeuwe and Patrick Goethals: [LexComSpaL2: A Lexical Complexity Corpus for Spanish as a Foreign Language](https://aclanthology.org/2024.lrec-main.912)
 - Leonardo Campillos-Llanos, Ana Rosa Terroba, Rocío Bartolomé, Ana Valverde-Mateos, Cristina González, Adrián Capllonch-Carrión, and Jonathan Heras: [Replace, Paraphrase or Fine-tune? Evaluating Automatic Simplification for Medical Texts in Spanish](https://aclanthology.org/2024.lrec-main.1216)
+- Margot Madina, Itziar Gonzalez-Dios, Melanie Siegel: [LanguageTool as a CAT tool for Easy-to-Read in Spanish](https://aclanthology.org/2024.readi-1.8/)
 
 **Swedish:**
 - Julius Monsen and Arne Jonsson: [Controllable Sentence Simplification in Swedish Using Control Prefixes and Mined Paraphrases](https://aclanthology.org/2024.lrec-main.349)
