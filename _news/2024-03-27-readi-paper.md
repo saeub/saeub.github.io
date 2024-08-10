@@ -12,4 +12,4 @@ related_posts: false
 
 The paper was accepted for a poster presentation at the [3rd Workshop on Tools and Resources for People with REAding DIfficulties (READI)](https://cental.uclouvain.be/readi2024/) at LREC-COLING in Turin (Italy) on May 20, 2024.
 
-Read the paper [here](https://arxiv.org/abs/2404.07720).
+Read the paper [here](https://aclanthology.org/2024.readi-1.3/).
