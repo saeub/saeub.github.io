@@ -1,3 +1,16 @@
+@inproceedings{Saeuberli2024c,
+  title     = {Statement Segmentation for German Easy Language Using BERT and Dependency Parsing},
+  author    = {Säuberli, Andreas and Bodenmann, Niclas},
+  booktitle = {Proceedings of the GermEval 2024 Shared Task on Statement Segmentation in German Easy Language (StaGE)},
+  year      = {2024},
+  address   = {Vienna, Austria},
+  publisher = {Association for Computational Linguistics},
+  abstract  = {Texts in Easy Language should contain a low number of statements per sentence, to make information more accessible and comprehensible. The shared task Statement Segmentation in German Easy Language (StaGE) aims to automatically identify the number and location of statements in German Easy Language sentences. We present our submission to this task, which combines sequence labeling with dependency parsing. Our approach uses a fine-tuned BERT model to predict the head token of each statement span and expands the span using dependency relations. Our model achieves a mean absolute error of 0.40 in the predicted number of statements and Jaccard index of 0.38 in the statement spans. We discuss the challenges and limitations of the task and outline future research directions.},
+  pdf       = {https://aclanthology.org/2024.germeval-1.3.pdf},
+  code      = {https://github.com/saeub/statement-segmentation},
+  abbr      = {GermEval}
+}
+
 @inproceedings{Carrer2024,
   title     = {Towards Holistic Human Evaluation of Automatic Text Simplification},
   author    = {Carrer, Luisa and Säuberli, Andreas and Kappus, Martin and Ebling, Sarah},
@@ -7,6 +20,7 @@
   publisher = {European Language Resources Association},
   abstract  = {Text simplification refers to the process of rewording within a single language, moving from a standard form into an easy-to-understand one. Easy Language and Plain Language are two examples of simplified varieties aimed at improving readability and understanding for a wide-ranging audience. Human evaluation of automatic text simplification (ATS) is usually done by employing experts or crowdworkers to rate the generated texts. However, this approach does not include the target readers of simplified texts and does not reflect actual comprehensibility. In this paper, we explore different ways of measuring the quality of automatically simplified texts. We conducted a multi-faceted evaluation study involving end users, post-editors, and Easy Language experts, and applied a variety of qualitative and quantitative methods. We found differences in the perception and actual comprehension of the texts by different user groups. In addition, qualitative surveys and behavioral observations proved to be essential in interpreting the results. Finally, we discuss the advantages of comprehensive evaluations of ATS and provide recommendations for future work.},
   pdf       = {https://aclanthology.org/2024.humeval-1.7.pdf},
+  abbr      = {HumEval},
   selected  = {true}
 }
 
@@ -21,6 +35,7 @@
   pdf       = {https://aclanthology.org/2024.readi-1.3.pdf},
   code      = {https://github.com/saeub/item-evaluation},
   data      = {https://github.com/saeub/dwlg},
+  abbr      = {READI},
   selected  = {true}
 }
 
@@ -36,6 +51,7 @@
   abstract  = {Text simplification refers to the process of increasing the comprehensibility of texts. Automatic text simplification models are most commonly evaluated by experts or crowdworkers instead of the primary target groups of simplified texts, such as persons with intellectual disabilities. We conducted an evaluation study of text comprehensibility including participants with and without intellectual disabilities reading unsimplified, automatically and manually simplified German texts on a tablet computer. We explored four different approaches to measuring comprehensibility: multiple-choice comprehension questions, perceived difficulty ratings, response time, and reading speed. The results revealed significant variations in these measurements, depending on the reader group and whether the text had undergone automatic or manual simplification. For the target group of persons with intellectual disabilities, comprehension questions emerged as the most reliable measure, while analyzing reading speed provided valuable insights into participants' reading behavior.},
   doi       = {10.1145/3613904.3642570},
   pdf       = {https://dl.acm.org/doi/pdf/10.1145/3613904.3642570},
+  abbr      = {CHI},
   selected  = {true}
 }
 
@@ -50,6 +66,7 @@
   abstract = {In research on Easy Language and automatic text simplification, it is imperative to evaluate the comprehensibility of texts by presenting them to target users and assessing their level of comprehension. Target readers often include people with intellectual or other disabilities, which renders conducting experiments more challenging and time-consuming. In this paper, we introduce Okra, an openly available touchscreen-based application to facilitate the inclusion of people with disabilities in studies of text comprehensibility. It implements several tasks related to reading comprehension and cognition and its user interface is optimized toward the needs of people with intellectual disabilities (IDs). We used Okra in a study with 16 participants with IDs and tested for effects of modality, comparing reading comprehension results when texts are read on paper and on an iPad. We found no evidence of such an effect on multiple-choice comprehension questions and perceived difficulty ratings, but reading time was significantly longer on paper. We also tested the feasibility of assessing cognitive skill levels of participants in Okra, and discuss problems and possible improvements. We will continue development of the application and use it for evaluating automatic text simplification systems in the future.},
   pdf      = {https://www.frontiersin.org/articles/10.3389/fcomm.2023.1175625/pdf},
   code     = {https://github.com/saeub/okra},
+  abbr     = {Frontiers},
   selected = {true}
 }
 
@@ -66,7 +83,8 @@
   pages     = {111--118},
   abstract  = {Eye movements are known to reflect cognitive processes in reading, and psychological reading research has shown that eye gaze patterns differ between readers with and without dyslexia. In recent years, researchers have attempted to classify readers with dyslexia based on their eye movements using Support Vector Machines (SVMs). However, these approaches (i) are based on highly aggregated features averaged over all words read by a participant, thus disregarding the sequential nature of the eye movements, and (ii) do not consider the linguistic stimulus and its interaction with the reader{'}s eye movements. In the present work, we propose two simple sequence models that process eye movements on the entire stimulus without the need of aggregating features across the sentence. Additionally, we incorporate the linguistic stimulus into the model in two ways{---}contextualized word embeddings and manually extracted linguistic features. The models are evaluated on a Mandarin Chinese dataset containing eye movements from children with and without dyslexia. Our results show that (i) even for a logographic script such as Chinese, sequence models are able to classify dyslexia on eye gaze sequences, reaching state-of-the-art performance, and (ii) incorporating the linguistic stimulus does not help to improve classification performance.},
   pdf       = {https://aclanthology.org/2022.tsar-1.10.pdf},
-  code      = {https://github.com/hallerp/dyslexia-seqmod}
+  code      = {https://github.com/hallerp/dyslexia-seqmod},
+  abbr      = {TSAR}
 }
 
 @article{Saeuberli2022,
@@ -77,7 +95,8 @@
   year     = {2022},
   abstract = {The goal of early detection tasks at eRisk is to classify social media users as early as possible, based on streams of posts written by those users. We present two simple strategies of adapting standard text classification models in order to optimize them for early detection: concatenating the posts in different ways during training and inference, and continuously moving the decision boundary at inference time. We applied these approaches to two different text classification architectures based on pre-trained language models in eRisk 2022's Task 2 (early detection of depression), and were able to reach top 5 placements in all time-sensitive evaluation metrics. A systematic post-submission ablation study confirmed that both strategies were effective at optimizing for early detection.},
   pdf      = {https://ceur-ws.org/Vol-3180/paper-79.pdf},
-  code     = {https://github.com/saeub/eRisk2022-LauSAn}
+  code     = {https://github.com/saeub/eRisk2022-LauSAn},
+  abbr     = {CLEF}
 }
 
 @article{Ebling2022,
@@ -89,7 +108,8 @@
   url      = {https://www.frontiersin.org/articles/10.3389/fcomm.2022.706718},
   doi      = {10.3389/fcomm.2022.706718},
   abstract = {The article at hand aggregates the work of our group in automatic processing of simplified German. We present four parallel (standard/simplified German) corpora compiled and curated by our group. We report on the creation of a gold standard of sentence alignments from the four sources for evaluating automatic alignment methods on this gold standard. We show that one of the alignment methods performs best on the majority of the data sources. We used two of our corpora as a basis for the first sentence-based neural machine translation (NMT) approach toward automatic simplification of German. In follow-up work, we extended our model to render it capable of explicitly operating on multiple levels of simplified German. We show that using source-side language level labels improves performance with regard to two evaluation metrics commonly applied to measuring the quality of automatic text simplification.},
-  pdf      = {https://www.frontiersin.org/articles/10.3389/fcomm.2022.706718/pdf}
+  pdf      = {https://www.frontiersin.org/articles/10.3389/fcomm.2022.706718/pdf},
+  abbr     = {Frontiers}
 }
 
 @inproceedings{Saeuberli2021,
@@ -103,7 +123,8 @@
   booktitle = {Proceedings of the 23rd International ACM SIGACCESS Conference on Computers and Accessibility},
   location  = {Virtual Event, USA},
   series    = {ASSETS '21},
-  abstract  = {Measuring text comprehension is crucial for evaluating the accessibility of texts in Easy Language. However, accurate and objective comprehension tests tend to be expensive, time-consuming and sometimes difficult to implement for target groups of Easy Language. In this paper, we propose using computer-based testing with touchscreen devices as a means to simplify and accelerate data collection using comprehension tests, and to facilitate experiments with less proficient readers. We demonstrate this by designing and implementing a mobile touchscreen application and validating its effectiveness in an experiment with people with intellectual disabilities. The results suggest that there is no difference in terms of task difficulty between measuring comprehension using the mobile application and a traditional paper-and-pencil test. Moreover, reading times appear to be faster in the application than on paper.}
+  abstract  = {Measuring text comprehension is crucial for evaluating the accessibility of texts in Easy Language. However, accurate and objective comprehension tests tend to be expensive, time-consuming and sometimes difficult to implement for target groups of Easy Language. In this paper, we propose using computer-based testing with touchscreen devices as a means to simplify and accelerate data collection using comprehension tests, and to facilitate experiments with less proficient readers. We demonstrate this by designing and implementing a mobile touchscreen application and validating its effectiveness in an experiment with people with intellectual disabilities. The results suggest that there is no difference in terms of task difficulty between measuring comprehension using the mobile application and a traditional paper-and-pencil test. Moreover, reading times appear to be faster in the application than on paper.},
+  abbr      = {ASSETS}
 }
 
 @inproceedings{Rios2021,
@@ -118,7 +139,8 @@
   pages     = {152--161},
   abstract  = {The task of document-level text simplification is very similar to summarization with the additional difficulty of reducing complexity. We introduce a newly collected data set of German texts, collected from the Swiss news magazine 20 Minuten ({`}20 Minutes{'}) that consists of full articles paired with simplified summaries. Furthermore, we present experiments on automatic text simplification with the pretrained multilingual mBART and a modified version thereof that is more memory-friendly, using both our new data set and existing simplification corpora. Our modifications of mBART let us train at a lower memory cost without much loss in performance, in fact, the smaller mBART even improves over the standard model in a setting with multiple simplification levels.},
   pdf       = {https://aclanthology.org/2021.newsum-1.16.pdf},
-  code      = {https://github.com/a-rios/longmbart}
+  code      = {https://github.com/a-rios/longmbart},
+  abbr      = {NewSum}
 }
 
 @inproceedings{Saeuberli2020,
@@ -130,7 +152,8 @@
   publisher = {European Language Resources Association},
   pages     = {41--48},
   abstract  = {Automatic text simplification is an active research area, and there are first systems for English, Spanish, Portuguese, and Italian. For {G}erman, no data-driven approach exists to this date, due to a lack of training data. In this paper, we present a parallel corpus of news items in German with corresponding simplifications on two complexity levels. The simplifications have been produced according to a well-documented set of guidelines. We then report on experiments in automatically simplifying the German news items using state-of-the-art neural machine translation techniques. We demonstrate that despite our small parallel corpus, our neural models were able to learn essential features of simplified language, such as lexical substitutions, deletion of less relevant words and phrases, and sentence shortening.},
-  pdf       = {https://aclanthology.org/2020.readi-1.7.pdf}
+  pdf       = {https://aclanthology.org/2020.readi-1.7.pdf},
+  abbr      = {READI}
 }
 
 @inproceedings{Battisti2020,
@@ -142,5 +165,6 @@
   publisher = {European Language Resources Association},
   pages     = {3302--3311},
   abstract  = {In this paper, we present a corpus for use in automatic readability assessment and automatic text simplification for German, the first of its kind for this language. The corpus is compiled from web sources and consists of parallel as well as monolingual-only (simplified German) data amounting to approximately 6,200 documents (nearly 211,000 sentences). As a unique feature, the corpus contains information on text structure (e.g., paragraphs, lines), typography (e.g., font type, font style), and images (content, position, and dimensions). While the importance of considering such information in machine learning tasks involving simplified language, such as readability assessment, has repeatedly been stressed in the literature, we provide empirical evidence for its benefit. We also demonstrate the added value of leveraging monolingual-only data for automatic text simplification via machine translation through applying back-translation, a data augmentation technique.},
-  pdf       = {https://aclanthology.org/2020.lrec-1.404.pdf}
+  pdf       = {https://aclanthology.org/2020.lrec-1.404.pdf},
+  abbr      = {LREC}
 }
