@@ -10,3 +10,5 @@ related_posts: false
 - In our paper, we outline the challenges with this task and discuss the usefulness of detecting statements in Easy Language.
 
 We will present our submission at the workshop co-located with [KONVENS 2024](https://konvens-2024.univie.ac.at/) in Vienna (Austria) on September 13, 2024.
+
+Read the paper [here](https://aclanthology.org/2024.germeval-1.3/).
