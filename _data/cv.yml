@@ -1,0 +1,46 @@
+- title: Education
+  type: time_table
+  contents:
+    - title: Master of Arts
+      institution: University of Zurich, Switzerland
+      year: 2021 - 2024
+      description:
+        - Computational Linguistics and Language Technology (major)
+        - Neuroinformatics (minor)
+    - title: Bachelor of Arts
+      institution: University of Zurich, Switzerland
+      year: 2017 - 2021
+      description:
+        - Computational Linguistics and Language Technology (major)
+        - Comparative Linguistics (minor)
+
+- title: Research
+  type: time_table
+  contents:
+    - title: PhD student
+      institution: <a href="https://mainlp.github.io/">MaiNLP research lab</a>, LMU Munich, Germany
+      year: 2024/10 - now
+      description:
+        - Cognitively inspired NLP
+        - Eye-tracking
+    - title: Student assistant
+      institution: Department of Computational Linguistics, University of Zurich, Switzerland
+      year: 2022/03 - 2024/07
+      description:
+        - Text simplification
+        - Human evaluation
+        - Eye-tracking
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Programming Techniques in Computational Linguistics 2 (co-lecturer)
+      institution: Department of Computational Linguistics, University of Zurich, Switzerland
+      year: 2023 - 2024
+      description:
+        - Bachelor's students in Computational Linguistics
+    - title: Information Technology for Libraries (lecturer)
+      institution: Central Library Zurich, Switzerland
+      year: 2021 - now
+      description:
+        - CAS/MAS courses
