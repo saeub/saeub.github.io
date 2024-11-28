@@ -34,13 +34,26 @@
 - title: Teaching
   type: time_table
   contents:
-    - title: Programming Techniques in Computational Linguistics 2 (co-lecturer)
-      institution: Department of Computational Linguistics, University of Zurich, Switzerland
-      year: 2023 - 2024
+    - title: Trustworthy Data-Centric AI (teaching assistant and co-lecturer)
+      institution: Center for Information and Language Processing, LMU Munich, Germany
+      year: 2024 - now
       description:
-        - Bachelor's students in Computational Linguistics
+        - Data origin, model behavior, interpretability, evaluation
+        - Master's students in Computational Linguistics
+    - title: Vertiefung der Grundlagen der Computerlinguistik (teaching assistant and co-lecturer)
+      institution: Center for Information and Language Processing, LMU Munich, Germany
+      year: 2024 - now
+      description:
+        - Introduction to NLP and deep learning
+        - Master's students in Computational Linguistics
     - title: Information Technology for Libraries (lecturer)
       institution: Central Library Zurich, Switzerland
       year: 2021 - now
       description:
         - CAS/MAS courses
+    - title: Programming Techniques in Computational Linguistics 2 (co-lecturer)
+      institution: Department of Computational Linguistics, University of Zurich, Switzerland
+      year: 2023 - 2024
+      description:
+        - Advanced Python programming
+        - Bachelor's students in Computational Linguistics
